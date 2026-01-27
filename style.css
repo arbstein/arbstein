@@ -327,8 +327,7 @@ max-width: 1200px;
   margin-bottom: 40px;
 }
 
-.video-obra video,
-.video-obra iframe {
+.video-obra video {
   width: 100%;
   height: auto;
   max-width: none;
@@ -351,39 +350,10 @@ max-width: 1200px;
 }
 
 .obra-item img,
-.obra-item video,
-.obra-item iframe {
+.obra-item video {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-.video-obra iframe {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  border: 0;
-  display: block;
-}
-
-.serie-obras iframe {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.video-centrado {
-  width: 100%;
-  margin-left: 0;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  display: flex;
-  justify-content: center;
-}
-
-.video-centrado iframe {
-  max-width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .descripcion-obra {
@@ -392,10 +362,6 @@ max-width: 1200px;
   max-width: 650px;
   text-align: center;
   margin-top: 6px !important;
-}
-
-.descripcion-vimeo {
-  margin-top: -10px !important;
 }
 
 .grilla-obras {
