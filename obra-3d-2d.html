@@ -34,7 +34,7 @@
   <section class="concepto-obra">
     <p> Esta serie propone un diálogo entre especies tridimensionales y dibujos más gestuales. A través de la superposición de texturas, huellas y transparencias, las obras exploran diversas dimensiones de lo visible y de lo que permanece marcado como un recuerdo. </p>
 <p> Son pinceladas digitales que habitan el vacío, transformando el espacio blanco en un ecosistema que se despliega en un tiempo lento pero constante. </p>
-  <p> <em> dibujos digitales y modelado 3D, 2025 </em> </p>
+  <p> <em> dibujos digitales y modelado 3D, 2023-2025 </em> </p>
 
 </section>
 
@@ -89,7 +89,36 @@
       }
     }
   });
+
+let startX = 0;
+let endX = 0;
+
+lightbox.addEventListener("touchstart", (e) => {
+  startX = e.changedTouches[0].screenX;
+});
+
+lightbox.addEventListener("touchend", (e) => {
+  endX = e.changedTouches[0].screenX;
+  handleSwipe();
+});
+
+function handleSwipe() {
+  const diff = startX - endX;
+
+  // swipe izquierda → siguiente
+  if (diff > 50) {
+    currentIndex = (currentIndex + 1) % images.length;
+    lightboxImg.src = images[currentIndex].src;
+  }
+
+  // swipe derecha → anterior
+  if (diff < -50) {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    lightboxImg.src = images[currentIndex].src;
+  }
+}
 </script>
+
 
 </body>
 </html>
