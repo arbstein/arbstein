@@ -181,6 +181,15 @@ body.bio .contenido-bio p {
   letter-spacing: 0.05em;
 }
 
+/* Imágenes dentro del texto movernos como plantas */ 
+.imagen-texto { 
+display: block;
+margin: 40px auto;
+margin-bottom: 8px; 
+width: auto; 
+height: auto;
+}
+
 .grid-redes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -651,6 +660,3 @@ body.obras .titulo-margen {
     margin-bottom: 16px;
     color: white;
   }
-
-}
-
