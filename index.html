@@ -32,7 +32,7 @@
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-<div class="preview-obra glb-wrapper">
+<div class="preview-obra glb-wrapper" style="width: 100vw; height: 95vh; overflow: hidden; display: block; margin-bottom: 50px;">
   <model-viewer
     id="obra-glb"
     src="https://ipfs.io/ipfs/bafybeidqvtfmwj5de7nruiviw6l32zkrpqprevxbuf2ab5fwjhjb5c4nqa"
@@ -41,18 +41,17 @@
     camera-controls
     shadow-intensity="1"
     exposure="1"
-    reveal="interaction"
-    style="width: 100%; height: 100%; background-color: transparent;">
+    style="width: 100%; height: 100%; background-color: transparent; display: block;">
 
-    <div slot="poster" class="glb-poster">
-      <p class="glb-poster-texto">tocá la imagen para interactuar con la obra</p>
+    <div slot="poster" class="glb-poster" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; cursor:pointer; background-image:url('arquimud_baja.webp'); background-size:cover; background-position:center;">
+      <p class="glb-poster-texto" style="color:white; background:rgba(0,0,0,0.5); padding:10px 20px; border-radius:8px; font-style:normal; text-align:center;">Tocá la imagen para interactuar con la obra</p>
     </div>
 
   </model-viewer>
 </div>
 
 <a href="exploracion de materialidades.html" class="preview-obra">
-  <img src="bellchiry0.webp" alt="bellchiry">
+  <img src="bellchiry.webp" alt="bellchiry">
 </a>
 
 <a href="movernos-como-plantas.html" class="preview-obra">
