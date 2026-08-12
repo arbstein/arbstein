@@ -23,7 +23,7 @@ main {
 
 /* Regla global de imágenes (overrideada por clases específicas) */
 img {
-  max-width: 700px;
+  max-width: none;
   height: auto;
 }
 
@@ -596,7 +596,8 @@ body.movernos main {
 
   .preview-obra img,
   .preview-obra video {
-    height: 50vh;
+   width: 100%;    
+   height: 50vh;
     object-fit: cover;
   }
 
@@ -607,7 +608,8 @@ body.movernos main {
   }
 
   .glb-wrapper model-viewer {
-    height: 50vh;
+   width: 100%;    
+   height: 50vh;
   }
 
   .grid-redes {
