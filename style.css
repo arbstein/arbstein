@@ -432,7 +432,7 @@ body.obras a[href="index.html"] {
   width: 100%;
   height: auto;
   max-width: none;
-  display: block;
+  aspect-ratio: 16 / 9;
 }
 
 .video-obra iframe {
