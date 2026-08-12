@@ -435,6 +435,12 @@ body.obras a[href="index.html"] {
   display: block;
 }
 
+.video-obra iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /* Galería de videos */
 .galeria-videos {
   max-width: 1200px;
