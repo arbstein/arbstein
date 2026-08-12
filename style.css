@@ -116,17 +116,6 @@ nav li {
   display: block;
 }
 
-.glb-poster {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background-image: url('glb con marco nuevo.webp');
-  background-size: contain;
-  background-position: center;
-}
 .glb-obra {
   width: 100%;
   max-width: 900px;
