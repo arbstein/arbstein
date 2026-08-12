@@ -23,7 +23,7 @@ main {
 
 /* Regla global de imágenes (overrideada por clases específicas) */
 img {
-  max-width: 700px;
+  max-width: auto;
   height: auto;
 }
 
@@ -123,7 +123,7 @@ nav li {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-image: url('arquimud_baja.webp');
+  background-image: url('glb con marco.webp');
   background-size: cover;
   background-position: center;
 }
