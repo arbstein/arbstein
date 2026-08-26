@@ -427,6 +427,7 @@ body.obras a[href="index.html"] {
 .video-obra {
   width: 100vw;
   margin-left: calc(50% - 50vw);
+  aspect-ratio: 16 / 9;
   margin-top: 40px;
   margin-bottom: 40px;
 }
