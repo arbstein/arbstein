@@ -748,9 +748,11 @@ body.movernos main {
     font-size: 0.9rem;
   }
 
+/* ── MARQUEE SOBRE IMÁGENES DEL HOME ── */
 .con-marquee {
   position: relative;
   overflow: hidden;
+  }
 }
 
 .marquee {
