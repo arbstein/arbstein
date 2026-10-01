@@ -747,4 +747,41 @@ body.movernos main {
     right: 20px;
     font-size: 0.9rem;
   }
+
+.con-marquee {
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.marquee-track {
+  display: inline-flex;
+  animation: marquee-scroll 15s linear infinite;
+}
+
+.marquee-track span {
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  color: white;
+  mix-blend-mode: difference;
+  padding-right: 2rem;
+}
+
+.con-marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+
 }
