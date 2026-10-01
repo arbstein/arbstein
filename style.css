@@ -772,7 +772,7 @@ body.movernos main {
 }
 
 .marquee-track span {
-  font-size: clamp(6rem);
+  font-size: clamp(2vm);
   color: white;
   mix-blend-mode: difference;
   padding-right: 2rem;
