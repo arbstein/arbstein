@@ -748,6 +748,8 @@ body.movernos main {
     font-size: 0.9rem;
   }
 
+}
+
 
 /* ── MARQUEE SOBRE IMÁGENES DEL HOME ── */
 .con-marquee {
@@ -768,13 +770,12 @@ body.movernos main {
 
 .marquee-track {
   display: inline-flex;
-  animation: marquee-scroll 15s linear infinite;
+  animation: marquee-scroll 12s linear infinite;
 }
 
 .marquee-track span {
   font-size: clamp(1rem, 2vw, 3rem);
   color: blue;
-  mix-blend-mode: difference;
   padding-right: 2rem;
 }
 
