@@ -770,11 +770,11 @@ body.movernos main {
 
 .marquee-track {
   display: inline-flex;
-  animation: marquee-scroll 12s linear infinite;
+  animation: marquee-scroll 25s linear infinite;
 }
 
 .marquee-track span {
-  font-size: clamp(1rem, 2vw, 2.5rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
   color: #083861;
   padding-right: 2rem;
 }
